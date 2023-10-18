@@ -7,7 +7,7 @@ test=["Python","PHP", "Java"]
 index1= 0 #index for letter in string array
 index2= 0 #index for item in array
 value1=len(test) # length of the array
-value2= len(test[0])+1 # length of the array item
+value2= len(test[0])+1 # length of the first array item
 mini = ("")
 
 for index1 in range(0,value2-1):
