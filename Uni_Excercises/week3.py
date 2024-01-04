@@ -1,4 +1,4 @@
-# Excercise 1
+# #Excercise 1
 # original_phrase = input("Enter any word or phrase to find out if it is a Palindrome ")
 # phrase = original_phrase.lower()
 # phrase = phrase.replace(" ", "")
