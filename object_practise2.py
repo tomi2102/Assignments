@@ -7,7 +7,8 @@ class  Employee:
 
     def assign_department(emp,emp_department):
         emp.department = emp_department
-        emp.department.append(input("Change Department"))
+        emp.department=(input("Change Department"))
+        return emp_department
     
     def print_employee_details(emp):
         print(f"The employee {emp.name},ID number{emp.ID},is in {emp.department} and earns {emp.salary}")
@@ -20,4 +21,12 @@ class  Employee:
             overtime_amount = (overtime * (salary / 50))
             salary = salary + overtime_amount
 
-    
+p1 = Employee("ADAMS", "E7876", 50000, "ACCOUNTING")
+p2 =Employee("JONES", "E7499", 45000, "RESEARCH")
+p3 = Employee("MARTIN", "E7900", 50000, "SALES")
+p4 = Employee("SMITH", "E7698", 55000, "OPERATIONS")
+
+print(p1.print_employee_details)
+print(p2.print_employee_details)
+print(p3.print_employee_details)
+print(p1.assign_department("SALES"))
